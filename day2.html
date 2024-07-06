@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 12 Notes Computer</title>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        min-height: 98%;
+        background-color: #f2f2f2; /* light gray background */
+        
+      }
+      .header {
+        background-color: #333; /* dark gray background */
+        color: #fff; /* white text */
+        padding: 20px;
+        text-align: center;
+      }
+
+      a {
+        color: #337ab7; /* blue link color */
+        text-decoration: none;
+      }
+      a:hover {
+        color: #23527c; /* darker blue on hover */
+      }
+
+      
+
+h3 {
+  color: #c74444;
+  margin: 10px 0;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="./index.html"><h1>Class 12 Notes</h1></a>
+      <h6>By Abhishek Kumar Yadav</h6>
+    </div>
+    <div class="body">
+      <h2 style=" color: rgb(4, 43, 77)">Assignments of Day 2</h2>
+      <div class="container">
+        <h1>Keys in DBMS</h1>
+        <h2>Day 4</h2>
+      
+        <h3>Key:</h3>
+        <p>
+          A "key" refers to a special attribute or set of attributes that uniquely identify a tuple (row) within a table. 
+          Keys play a fundamental role in relational database design and management, ensuring data integrity and facilitating efficient data 
+          retrieval. Keys are crucial for maintaining data integrity, facilitating data relationships (through foreign keys), and optimizing query 
+          performance in relational databases.
+        </p>
+      
+        <h3>Sample Table:</h3>
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Citizenship No.</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Aditi</td>
+            <td>Computer Science</td>
+            <td>494910</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Hari</td>
+            <td>Economics</td>
+            <td>101049</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Shyam</td>
+            <td>Sports Science</td>
+            <td>181890</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Ugratara</td>
+            <td>Biology</td>
+            <td>301289</td>
+          </tr>
+        </table>
+      
+        <h3>Types of Keys</h3>
+      
+        <h3>Super Key:</h3>
+        <p>The set of all possible keys that can define a tuple uniquely. In this table, all the four headers are eligible to become super key.</p>
+      
+        <h3>Candidate keys:</h3>
+        <p>Keys that are eligible to become primary key and are unique in nature are called candidate keys. In the example above, all the four can be candidate keys. However, ID and Citizenship no. are more preferred.</p>
+      
+        <h3>Primary Key:</h3>
+        <p>The most unique key that helps to identify a tuple in a table is known as primary key. It makes finding specific data and editing, data management much easier. In the table above, the most suitable column for primary key is ID.</p>
+      
+        <h3>Alternate Key:</h3>
+        <p>All the candidate keys which fail to become the primary key are known as alternate keys.</p>
+      
+        <h3>Foreign Key:</h3>
+        <p>A foreign key is a column or columns of data in one table that refers to the unique data values, often the primary key data in another table. Foreign keys link together two or more tables in a relational database.</p>
+      </div>
+      
+      </body>
+      </html>
+    </div>
+  </body>
+</html>
